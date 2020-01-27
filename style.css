@@ -1,0 +1,62 @@
+html
+{
+	overflow: hidden;
+	background-color: gray;
+}
+
+#canvas
+{
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+
+	background-color: white;
+}
+
+#toolbar
+{
+	position: absolute;
+	top: 10vh;
+	left: 0vw;
+	width: 5vw;
+	height: 80vh;
+
+	background-color: black;
+}
+
+#select
+{
+	position: absolute;
+	top: 1vh;
+	left: 50%;
+	width: 5vh;
+	height: 5vh;
+	transform: translate(-50%, 0%);
+
+	background-color: green;
+}
+
+#draw
+{
+	position: absolute;
+	top: 7vh;
+	left: 50%;
+	width: 5vh;
+	height: 5vh;
+	transform: translate(-50%, 0%);
+
+	background-color: red;
+}
+
+#beautify
+{
+	position: absolute;
+	top: 13vh;
+	left: 50%;
+	width: 5vh;
+	height: 5vh;
+	transform: translate(-50%, 0%);
+
+	background-color: lightgreen;
+}
